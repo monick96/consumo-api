@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/nosotros.css">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div id="app">
+      <div class="styles_custom_slide style18">
+        <div class="style_cards style19">
+
+          <div v-for="inversor of sponsors" class="style_card style20">
+            <div class="styles_testimony style21">
+
+              <p class="style_testimony style22">{{inversor.review}}</p>
+              
+            </div>
+            <div class="styles_info style23">
+
+              <img :src="inversor.logo" :alt="inversor.company" loading="lazy" class="styles_img inv1">
+
+              <div>
+                <p class="style_name style24">{{inversor.name}}</p>
+                <p class="style_job style25">{{inversor.job}}</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="style_card style20">
+            <div class="styles_testimony style21">
+              <p class="style_testimony style22">
+                “Dada la gran demanda insatisfecha de ingenieros de software, crear una escuela en América Latina para
+                desarrollar esos ingenieros es una gran oportunidad, y este es el equipo para tener éxito. Invertimos en
+                Code to Code porque el equipo tiene talento y está orientado a la misión”.
+              </p>
+            </div>
+            <div class="styles_info style23">
+              <img src="./images/ycombinator.png" loading="lazy" class="styles_img inv1">
+              <div>
+                <p class="style_name style24">Tim Brady</p>
+                <p class="style_job style25">YCombinator Partner</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="style_card style20">
+            <div class="styles_testimony style21">
+              <p class="style_testimony style22">
+                “En un mundo remoto, puedes acceder al talento en todas partes y Code to Code está capacitando a los
+                mejores ingenieros de Latam”.
+              </p>
+            </div>
+            <div class="styles_info style23">
+              <img src="./images/DraperLogo.png" loading="lazy" class="styles_img inv1">
+              <div>
+                <p class="style_name style24">Tim Draper</p>
+                <p class="style_job style25">Founder Draper University</p>
+              </div>
+            </div>
+          </div>
+          <div class="style_card style20">
+            <div class="styles_testimony style21">
+              <p class="style_testimony style22">
+                “El papel de Code to Code en la provisión de ingreso asequible para la educación técnica de alta calidad
+                puede ayudar a abordar los desafíos multifacéticos de la persistente desigualdad de ingresos, el alto
+                desempleo y la escasez de trabajadores calificados que enfrentan tanto los estudiantes como los
+                empleadores en América Latina”.
+
+              </p>
+            </div>
+            <div class="styles_info style23">
+              <img src="./images/accion.png" loading="lazy" class="styles_img inv1">
+              <div>
+                <p class="style_name style24">Michael Schlein</p>
+                <p class="style_job style25">CEO and President</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="container">
+            <div v-for="inversor of sponsors" class="tarjeta">
+                
+                <div class="cuerpo">
+                    <p>{{inversor.review}}</p>
+                    <h3>{{inversor.name}}</h3>
+                    <h3>{{inversor.job}}</h3>
+                    <img :src="inversor.logo" :alt="inversor.company">
+                </div>
+                
+            </div>
+        </div> -->
+
+      </div>
+
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+  <!-- vue -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- my js -->
+  <script src="./js/api.js"></script>
+</body>
+
+</html>
